@@ -10,8 +10,11 @@
    El hilo A deberá también indicar el valor inicial de X en el mensaje de arranque o final.
    Pregunta: Hay condiciones de carrera? Como las evitaria?
 4. Modificar el programa anterior para que se ejecuten 2 hilos A y un hilo B. Identificar (con comentarios) las zonas críticas y colocar los objetos necesarios para evitar condiciones de carrera.
-
-
+5. Implemente un programa que pueda lanzar 10 hilos tipo A y 2 hilos tipo B, todos con acceso a una variable global X incializada en 0.
+   Hilos A incrementan el valor de X hasta 1000000.
+   Hilo B imprime el valor de X cada 2 segundos.
+   Colocar líeas de comentario en el código, identificando las zonas críticas y los objetos utilizados para evitar condiciones de carrera.
+6. 
 
 
 <sub>[Daniel Buaon - unahur-progra-concu-1-2021](https://github.com/unahur-progra-concu-1-2021)</sub>
